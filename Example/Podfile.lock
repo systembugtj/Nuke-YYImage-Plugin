@@ -1,0 +1,47 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (7.0.3)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - Nuke (6.0)
+  - Nuke-YYImage-Plugin (0.1.0):
+    - Nuke (~> 6.0)
+    - YYImage (~> 1.0.4)
+    - YYImage/WebP (~> 1.0.4)
+  - Quick (1.2.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 7.0.2)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Nuke-YYImage-Plugin (from `../`)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  Nuke-YYImage-Plugin:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  Nuke: d83812262734dad51e3c498cb1c4f7923f2b78c6
+  Nuke-YYImage-Plugin: a6cf42166f1f2a6a337cd808579686039cfa86a0
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 4366d5ccdd53c36251e1481e64f668b3cee5a612
+
+COCOAPODS: 1.4.0

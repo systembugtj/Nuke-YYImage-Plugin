@@ -1,0 +1,6 @@
+framework module Pods_Nuke_YYImage_Plugin_Example {
+  umbrella header "Pods-Nuke-YYImage-Plugin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

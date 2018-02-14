@@ -1,0 +1,6 @@
+framework module NukeYYImagePlugin {
+  umbrella header "Nuke-YYImage-Plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
